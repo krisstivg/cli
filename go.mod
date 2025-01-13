@@ -1,4 +1,4 @@
-module github.com/dependabot/cli
+module github.com/krisstivg/dependabot/cli
 
 go 1.22.3
 
