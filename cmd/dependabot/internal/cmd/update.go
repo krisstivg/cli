@@ -230,7 +230,7 @@ func readArguments(cmd *cobra.Command, flags *UpdateFlags) (*model.Input, error)
 			LockfileOnly:               false,
 			RequirementsUpdateStrategy: nil,
 			SecurityAdvisories:         []model.Advisory{},
-			SecurityUpdatesOnly:        false,
+			SecurityUpdatesOnly:        true,
 			Source: model.Source{
 				Provider:    flags.provider,
 				Repo:        repo,
